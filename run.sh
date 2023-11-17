@@ -1,4 +1,4 @@
-datapath=/Users/kevin/Desktop/AI
+datapath=/Users/kevin/Desktop/AI/computer_vision
 datasets=('capsule')
 dataset_flags=($(for dataset in "${datasets[@]}"; do echo '-d '"${dataset}"; done))
 
